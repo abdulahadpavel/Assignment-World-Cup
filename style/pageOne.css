@@ -4,6 +4,8 @@ body{
     font-family: 'Roboto', sans-serif;
 
     background-color: aliceblue;
+    width: 80%;
+    margin-left: 5%;
 }
 
 /* header style start */
@@ -79,6 +81,10 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: aliceblue;
+    gap: 1%;
+}
+.box-2 img{
+    width: 100%;
 }
 
 .icon{
@@ -141,6 +147,8 @@ footer{
     background-color: black;
     border-radius: 10px;
     padding: 80px;
+    margin-left: 5%;
+    margin-bottom: 5%;
     
  }
  .footer-text{

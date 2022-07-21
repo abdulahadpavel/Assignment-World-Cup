@@ -4,6 +4,8 @@ body{
     font-family: 'Roboto', sans-serif;
 
     background-color: aliceblue;
+    width: 90%;
+    margin-left: 10%;
 }
 
 /* header style start */
@@ -162,10 +164,13 @@ body{
 /* footer page start */
 
 .footers{
-    display: block;
-    margin-top: -16%;
+    /* display: block; */
+    /* margin-top: -16%; */
     background-color: black;
+    padding: 100px;
     border-radius: 10px;
+    margin-right: 5%;
+    margin-bottom: 5%;
  
     
  }
