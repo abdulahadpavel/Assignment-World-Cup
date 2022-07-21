@@ -131,5 +131,55 @@ body{
 .article{
     font-size: medium;
 }
-
 /* section page end */
+
+
+/* footer page start */
+footer{
+    display: block;
+    margin-top: 500px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 80px;
+    
+ }
+ .footer-text{
+     text-align: center;
+     color: whitesmoke;
+     font-size: large;
+ }
+ .footer-text hr{
+     color: rgb(175, 171, 171);
+ }
+ .footer-menu{
+     text-align: center;
+     margin: 0px 30px;
+     color: aliceblue;
+ 
+ 
+ }
+ .footer-menu a{
+     color: white;
+     text-decoration: none;
+     margin: 0px 15px;
+ }
+ #contact:hover{
+     background-color: rgb(82, 79, 76);
+ }
+ #service:hover{
+     background-color: rgb(82, 79, 76);
+ }
+ #app:hover{
+     background-color: rgb(82, 79, 76);
+ }
+ #policy:hover{
+     background-color: rgb(82, 79, 76);
+ }
+ #live:hover{
+     background-color: rgb(82, 79, 76);
+ }
+ #settings:hover{
+     background-color: rgb(82, 79, 76);
+ }
+ 
+ /* footer page end */
