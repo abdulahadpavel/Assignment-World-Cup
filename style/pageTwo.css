@@ -47,3 +47,113 @@ body{
     top: 83px;
 }
 /* header style end */
+
+/* section-2nd page start */
+
+.container{
+    /* border: 1px solid whitesmoke; */
+    display: flex;
+    height: 700px;
+    border-radius: 30px;
+    width: 1321px;
+    left: 75px;
+    top: 50px;
+    margin-top: 50px;
+    gap: 10px;
+
+}
+.box{
+    /* border: 1px dashed peru; */
+    width: 300px;
+    height: 300px;
+    font-size: 4ex;
+    font-weight: 700;
+    background-color: #161616;
+}
+
+.box-2{
+    /* border: 1px dashed peru; */
+       width: 150px;
+       grid-gap: 4%;
+    height: 300px;
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: aliceblue;
+    
+}
+.oraganise-flag p{
+    color: rgb(194, 110, 14);
+    font-size: 20px;
+    margin-top: -20px;
+    font-weight: bolder;
+  
+   
+}
+.oraganise-flag span{
+    color: rgb(8, 61, 61);
+
+}
+.oraganise-flag{
+    border: 2px solid rgb(218, 215, 215); 
+    border-radius: 8px;
+    text-align:center;
+
+
+    
+}
+.oraganise-flag h6{
+    margin-top: 7%;
+    padding: 1%;
+    font-size: 30px;
+    font-weight: 600;
+}
+.germany{
+    margin-left: 8%;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.germany img{
+    border-radius: 5px;
+    width: 110px;
+}
+.spain{
+
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.spain img{
+    border-radius: 5px;
+    width: 110px;
+}
+
+
+.box a{
+    display: block;
+    margin: 30px 20px;
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+#red{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
+
+/* section page end */
